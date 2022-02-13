@@ -31,10 +31,3 @@ for item in all_states:
 print(not_guessed)
 final_list = pandas.DataFrame(not_guessed)
 final_list.to_csv('not_guessed_file.csv')
-# def on_click_on_screen(x, y):
-#     print(x, y)
-#
-#
-# turtle.onscreenclick(on_click_on_screen)
-# turtle.mainloop()
-# screen.exitonclick()
