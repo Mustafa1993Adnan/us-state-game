@@ -29,12 +29,3 @@ while len(guessed_states) < 50:
         row_data = data_states[data_states.state == user_input]
         pen.goto(int(row_data.x), int(row_data.y))
         pen.write(user_input)
-    # if user_input in all_states:
-    #     guessed_states.append(user_input)
-    #     row_data = data_states[data_states.state == user_input]
-    #     pen.goto(int(row_data.x), int(row_data.y))
-    #     pen.write(user_input)
-# for item in all_states:
-#     if item not in guessed_states:
-#         not_guessed.append(item)
-
